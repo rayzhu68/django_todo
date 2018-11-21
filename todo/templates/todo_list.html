@@ -17,7 +17,7 @@
                 <td>{{ item.name }}</td>
                 {% endif %}
                 <td>
-                    <form method="GET" action="edit"><input type="submit" value="Edit"/></form>
+                    <form method="GET" action="edit/{{ item.id }}"><input type="submit" value="Edit"/></form>
                 </td>
             </tr>
             {% empty %}
