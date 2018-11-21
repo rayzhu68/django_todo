@@ -16,6 +16,9 @@
                 {% else %}
                 <td>{{ item.name }}</td>
                 {% endif %}
+                <td>
+                    <form method="GET" action="edit"><input type="submit" value="edit"/></form>
+                </td>
             </tr>
             {% empty %}
             <h5>You have nothing to do.</h5>
