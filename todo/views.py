@@ -3,8 +3,8 @@ from .models import Item
 from .forms import ItemForm
 
 # Create your views here.
-def say_hello(request):
-    return HttpResponse("Hello World")
+#def say_hello(request):
+#    return HttpResponse("Hello World")
     
 def get_todo_list(request):
     results = Item.objects.all()
